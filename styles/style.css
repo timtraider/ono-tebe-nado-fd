@@ -118,7 +118,7 @@
   text-transform: uppercase;
   z-index: 3;
   color: #fff;
-  bottom: 88px;
+  bottom: 93px;
 }
 
 .cover__description-text {
@@ -155,7 +155,7 @@
   line-height: 100%;
   letter-spacing: 0%;
   text-transform: uppercase;
-  padding: 30px 30px 30px 43px;
+  padding: 27px 30px 30px 64px;
 }
 
 .lots__card-list {
@@ -173,6 +173,8 @@
 
 .card {
   box-sizing: border-box;
+  position: relative;
+  left: 23px;
   padding: 40px;
   width: 334px;
   height: 596px;
@@ -183,6 +185,8 @@
 .card__title {
   font-weight: 700;
   font-size: 22px;
+  position: relative;
+  top: 8px;
   color: #fff;
   border-bottom: 1px solid #fff;
   text-transform: uppercase;
@@ -201,6 +205,7 @@
   font-size: 20px;
   height: 100%;
   align-content: flex-end;
+  padding-bottom: 13px;
 }
 
 .card_type_film {
@@ -216,6 +221,8 @@
 }
 
 .lots__look-more-link {
+  position: relative;
+  left: 23px;
   display: inline-block;
   margin: 32px 40px;
   color: #000;
@@ -230,7 +237,6 @@
 
 .about {
   box-sizing: border-box;
-   min-width: 1200px;
    height: 595px;
 }
 
@@ -238,15 +244,16 @@
   box-sizing: border-box;
   display: grid;
   position: relative;
-  left: 6px;
   z-index: 0;
   grid-template-columns: 334px 1fr;
   align-items: center;
   
 }
 
-.about__logo {
-  justify-items: center;
+.about__logo-image {
+  position: relative;;
+  left: 70px;
+  bottom: 134px;
 }
 
 .about__title {
@@ -257,14 +264,12 @@
 }
 
 .paragraf {
-  box-sizing: border-box;
   display: flex;
-  position: relative;
-  top: 70px;
   flex-direction: column;
-  width: 693px;
+  width: 690px;
   height: 449px;
-  padding-left: 19px;
+  padding-top: 141px;
+  padding-left: 47px;
   gap: 24px;
   
 }
@@ -281,7 +286,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: start;
   justify-items: end;
-  padding: 190px 25px 82px 25px;
+  padding: 187px 0 82px 50px;
 }
 
 .footer .address {
