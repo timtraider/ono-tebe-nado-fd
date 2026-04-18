@@ -34,7 +34,7 @@
   display: block;
 }
 
-.header__address {
+.address-block  {
   width: 240px;
   padding-bottom: 12px;
   line-height: normal;
@@ -48,7 +48,7 @@
   
 }
 
-.header__address a {
+.address-block a {
   padding-right: 5px;
   text-decoration: none;
   color: #000;
@@ -108,9 +108,10 @@
 .cover__description {
   display: flex;
   flex-direction: row;
+  position: relative;
   padding-left: 50px;
   text-transform: uppercase;
-  z-index: 3;
+  z-index: 4;
   color: #fff;
 }
 
@@ -126,7 +127,7 @@
   background: none;
   border: 1px solid #fff;
   font-size: 22px;
-  margin-left: 105px;
+  margin-left: 107px;
   text-transform: uppercase;
   box-shadow: none;
   padding: 10px 32px;
@@ -275,7 +276,7 @@
   padding: 119px 0 82px 50px;
 }
 
-.footer .header__address {
+.footer .address-block {
   width: 265px;
   justify-self: flex-start;
 }
